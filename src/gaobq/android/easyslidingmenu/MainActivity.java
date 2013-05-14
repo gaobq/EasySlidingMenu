@@ -31,6 +31,8 @@ public class MainActivity extends PreferenceActivity {
 		String title = preference.getTitle().toString();
 		if(title.equals(getString(R.string.change_data))){
 			cls = SlidingTestActivity.class ;
+		}else if(title.equals(getString(R.string.scale_anim))){
+			cls = SlidingAnimActivity.class ;
 		}
 		if(cls != null){
 			Intent intent = new Intent(this, cls);

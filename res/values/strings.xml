@@ -6,4 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="general">general</string>
 	<string name="change_data">change data</string>
+	<string name="anim">anim</string>
+	<string name="scale_anim">scale</string>
 </resources>

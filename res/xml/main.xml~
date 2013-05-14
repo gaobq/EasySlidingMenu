@@ -4,8 +4,5 @@
     <PreferenceCategory android:title="@string/general" >
         <Preference android:title="@string/change_data" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/anim" >
-        <Preference android:title="@string/scale_anim" />
-    </PreferenceCategory>
 
 </PreferenceScreen>
